@@ -64,7 +64,7 @@ def train(rank, world_size, args):
     best_val_acc = 0
     best_val_loss = float('inf')
     early_stop_counter = 0
-    early_stop_patience = 20
+    early_stop_patience = 10
 
     train_loss_log, val_loss_log, train_acc_log, val_acc_log = [], [], [], []
 
