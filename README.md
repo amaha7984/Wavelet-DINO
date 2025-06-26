@@ -55,6 +55,7 @@ python3.9 test.py --test_path /path/to/test_dataset/ --checkpoint_path /path/to/
 This work builds upon the ideas presented in the paper:  
 [**DINOv2: Learning Robust Visual Features without Supervision**](https://arxiv.org/pdf/2304.07193), published by [Meta AI Research](https://github.com/facebookresearch/dinov2).  
 We gratefully utilize the open-source DINOv2 backbone available through the 🤗 Hugging Face Transformers library:
-```from transformers import Dinov2ForImageClassification
+```python
+from transformers import Dinov2ForImageClassification
 ```
 Special thanks to the authors and the community for their excellent work and open-source contributions.
