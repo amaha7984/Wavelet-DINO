@@ -44,3 +44,8 @@ The model's weight will be stored at `./saved_models/`.
 
 - Trained Weights:
   Trained weights can be downloaded from [Model_Weights](https://drive.google.com/drive/folders/1yGBiXMN9OpDnypIxW3xIe9ZGQwmtjhpt?usp=drive_link)
+
+- Test the Wavelet-DINO:
+```bash
+python3.9 test.py --test_path /path/to/test_dataset/ --checkpoint_path /path/to/saved_models/weight.pth
+```
