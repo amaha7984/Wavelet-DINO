@@ -1,0 +1,25 @@
+# Core Deep Learning
+torch==2.5.1
+torchvision==0.20.1
+
+# Hugging Face Transformers (DINOv2 backbone)
+transformers==4.52.4
+
+# Discrete Wavelet Transform (DWT)
+PyWavelets==1.6.0
+ptwt==0.1.9
+
+# Image and Array Processing
+numpy==2.0.2
+Pillow==11.1.0
+scipy==1.13.1
+opencv-python==4.11.0
+
+scikit-learn==1.6.1
+
+
+# Visualization
+matplotlib==3.9.4
+
+# Progress Bar
+tqdm==4.67.1
