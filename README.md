@@ -19,3 +19,28 @@ The implementation has two components:
 3. Wavelet-DINO Forensic Detection
    
    Please see below for code execution on training and testing
+   
+## Installation
+
+- Clone the repository:
+   ```bash
+   git clone https://github.com/amaha7984/Wavelet-DINO.git
+   cd Wavelet-DINO
+   ```
+- Create a Python virtual environment (optional but recommended)
+  ```bash
+   python3.9 -m venv myvenv
+   source myvenv/bin/activate
+  ```
+- Install required dependencies and packages
+  ```bash
+  pip3.9 install -r requirements.txt
+  ```
+- Train the Wavelet-DINO:
+```bash
+python3.9 train.py --train_path ./datasets/train/ --val_path ./datasets/val/ --epochs 100 --batch_size 64
+```
+The model's weight will be stored at `./saved_models/`.
+
+- Trained Weights:
+  Trained weights can be downloaded from [Model_Weights](https://drive.google.com/drive/folders/1yGBiXMN9OpDnypIxW3xIe9ZGQwmtjhpt?usp=drive_link)
