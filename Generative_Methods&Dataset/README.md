@@ -38,3 +38,7 @@ The dataset is hosted on Google Drive and can be accessed here:
 > **License:** By downloading this dataset, you agree to the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 The dataset has train, val, and test folders. Inside each folder, there are two subfolders named 0_real, which contains real aerial imagery, and 1_fake, which contains generated aerial imagery.
+
+### Public Satellite Forensic Dataset
+
+This dataset was presented by Zhao et al. in the paper "Deep fake geography? When geospatial data encounter Artificial Intelligence". Please refer to [the original paper](https://www.tandfonline.com/doi/full/10.1080/15230406.2021.1910075) for dataset access and further details.
